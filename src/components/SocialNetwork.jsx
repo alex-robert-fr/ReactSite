@@ -12,6 +12,9 @@ function SocialNetwork() {
                 
                 link.style.transform = `translate(${attrX}px, ${attrY}px)`
             })
+            link.addEventListener('mouseleave', () => {
+                link.style.transform = ''
+            })
         })
     }
     return (
