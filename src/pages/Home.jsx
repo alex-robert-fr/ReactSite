@@ -1,4 +1,5 @@
 import React from 'react'
+import ButtonsBottom from '../components/ButtonsBottom'
 import DynamicText from '../components/DynamicText'
 import Navigation from '../components/Navigation'
 import SocialNetwork from '../components/SocialNetwork'
@@ -14,6 +15,7 @@ function Home() {
                     <h2><DynamicText /></h2>
                 </div>
             </div>
+            <ButtonsBottom right={'/project-1'} />
         </div>
     )
 }
