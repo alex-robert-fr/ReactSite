@@ -5,7 +5,9 @@ function Project({projectNumber}) {
     const [currentProject] = useState(projectsData)
     const project = currentProject[projectNumber]
 
-    
+    let left = Math.floor(Math.random() * 200 + 700) + 'px'
+    let top = Math.floor(Math.random() * 200 + 150) + 'px'
+    let transform = 'scale(' + (Math.random() + 0.7) + ')'
 
     return (
         <div className="project-main">
@@ -32,6 +34,7 @@ function Project({projectNumber}) {
                     </a>
                 </div>
             </div>
+            <span className='random-circle' style={{left, top, transform}}></span>
         </div>
     )
 }
