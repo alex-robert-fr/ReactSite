@@ -1,10 +1,12 @@
 import React from 'react'
+import Mouse from '../components/Mouse'
 
 function Contact() {
     return (
-        <div>
+        <main>
+            <Mouse />
             Contact
-        </div>
+        </main>
     )
 }
 

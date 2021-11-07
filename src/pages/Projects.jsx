@@ -1,12 +1,14 @@
 import React from 'react'
 import ButtonsBottom from '../components/ButtonsBottom'
 import Logo from '../components/Logo'
+import Mouse from '../components/Mouse'
 import Navigation from '../components/Navigation'
 import Project from '../components/Project'
 
 export function Project1() {
     return (
         <main>
+            <Mouse />
             <div className="project">
                 <Navigation />
                 <Logo />
@@ -19,6 +21,7 @@ export function Project1() {
 export function Project2() {
     return (
         <main>
+            <Mouse />
             <div className="project">
                 <Navigation />
                 <Logo />
@@ -31,6 +34,7 @@ export function Project2() {
 export function Project3() {
     return (
         <main>
+            <Mouse />
             <div className="project">
                 <Navigation />
                 <Logo />
@@ -43,6 +47,7 @@ export function Project3() {
 export function Project4() {
     return (
         <main>
+            <Mouse />
             <div className="project">
                 <Navigation />
                 <Logo />
